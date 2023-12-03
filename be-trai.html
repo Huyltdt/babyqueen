@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quan Ao Bé Trai</title>
-    <!-- <link rel="stylesheet" href="./be-trai/be-trai.css"> -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./be-trai/be-trai.css">
+    
     <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -60,19 +60,20 @@
                     </ul>
                 </li>
                 <li><a href="#">Đồ dùng</a></li>
-                <li><a href="#">Liên hệ</a></li>
+                <li><a href="./index.html#lienhe">Liên hệ</a></li>
             </ul>
             <div class="search">
                 <form class="search-form">
                     <input type="text" class="search-input" id="searchInput" placeholder="Tìm kiếm...">
                 </form>
-                <i class="search-icon ti-search" onclick="hideSearchInput()"></i>
+                <i class="search-icon ti-search" title="Tìm Kiếm" onclick="hideSearchInput()"></i>
             </div>
             <div class="search">
-                <i class="search-icon  ti-user"></i>
+                <a href="./login.html" target="_blank" title="Đăng nhập"> <i class="search-icon  ti-user"></i></a>
+               
             </div>
             <div class="search">
-                <i class="search-icon  ti-shopping-cart"></i>
+                <i class="search-icon  ti-shopping-cart" title="Giỏ hàng"></i>
             </div>
         </nav>
     </div>
@@ -586,59 +587,65 @@
         
         </ul>
     </div>
-    <div class="footer">
-        <ul class="end">
-            <li>
-                <div class="info-footer">
-                    <p class="gioi-thieu">Thông tin liên hệ</p>
-                    <p>Trụ sở chính: Trường Cao Đẳng Cộng Đồng Đồng Tháp</p>
-                    <p>Địa Chỉ: 259, Thiên Hộ Dương, P. Hòa Thuận, Tp Cao Lãnh - Đồng Tháp.</p>
-                    <p>Hotline:0346.598.118</p>
-                    <p>Email:nguyenanhuyss@gmail.com</p>
-                    <a href="http://online.gov.vn/" target="_blank">
-                        <img src="./IMG/da thong bao bo cong thuong.png" alt="">
-                    </a>
+    <div id="lienhe">
+        <div class="footer">
+            <ul class="end">
+                <li>
+                    <div class="info-footer">
+                        <p class="gioi-thieu">Thông tin liên hệ</p>
+                        <p>Trụ sở chính: Trường Cao Đẳng Cộng Đồng Đồng Tháp</p>
+                        <p>Địa Chỉ: 259, Thiên Hộ Dương, P. Hòa Thuận, Tp Cao Lãnh - Đồng Tháp.</p>
+                        <p>Hotline:0346.598.118</p>
+                        <p>Email:nguyenanhuyss@gmail.com</p>
+                        <a href="#">
+                            <img src="./IMG/da thong bao bo cong thuong.png" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="info-footer">
+                        <a href="#" class="gioi-thieu">Giới Thiệu</a>
+                        <a href="#">Giới Thiệu</a>
+                        <a href="#">Giá trị cốt lõi</a>
+                        <a href="#">Liên hệ</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="info-footer">
+                        <a href="#" class="gioi-thieu">Dịch vụ khách hàng</a>
+                        <a href="#">Chính sách khách hàng thân thiết</a>
+                        <a href="#">Chính sách Kiểm hàng</a>
+                        <a href="#">Chính sách đổi trả</a>
+                        <a href="#">Chính sách bảo hành</a>
+                        <a href="#">Chính sách bảo mật</a>
+                        <a href="#">Chính sách vận chuyển và thanh toán</a>
+                        <a href="#">Hướng đãn chọn size</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="info-footer">
+                        <p href="#">Đăng ký nhận ưu đãi từ BABY Queen</p>
+                        <p href="#">Nhận thông tin sản phẩm mới và các chương trình khuyến mãi của BABY Queen</p>
+                        <input type="text" name="" id="" placeholder="Nhập email của bạn">
+                        <button>Đăng Ký</button>
+                        <p>Phương thức thanh toán</p>
+                        <a href="" class="thanh-toan">
+                            <img src="./IMG/visa.png" alt="">
+                            <img src="./IMG/230x0w.jpg" alt="">
+                            <img src="./IMG/momo.png" alt="">
+                            <img src="./IMG/zalo.jpg" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="cuoi-cung">
+                ©Bản quyền thuộc về BABY Queen <a href="#">| Powered by Haravan.</a> 
+                <br>
+                    link websize tham khảo: <a href="https://babi.vn/" target="_blank"> Babi</a>
                 </div>
-            </li>
-            <li>
-                <div class="info-footer">
-                    <a href="#" class="gioi-thieu">Giới Thiệu</a>
-                    <a href="#">Giới Thiệu</a>
-                    <a href="#">Giá trị cốt lõi</a>
-                    <a href="#">Liên hệ</a>
-                </div>
-            </li>
-            <li>
-                <div class="info-footer">
-                    <a href="#" class="gioi-thieu">Dịch vụ khách hàng</a>
-                    <a href="#">Chính sách khách hàng thân thiết</a>
-                    <a href="#">Chính sách Kiểm hàng</a>
-                    <a href="#">Chính sách đổi trả</a>
-                    <a href="#">Chính sách bảo hành</a>
-                    <a href="#">Chính sách bảo mật</a>
-                    <a href="#">Chính sách vận chuyển và thanh toán</a>
-                    <a href="#">Hướng đãn chọn size</a>
-                </div>
-            </li>
-            <li>
-                <div class="info-footer">
-                    <p href="#">Đăng ký nhận ưu đãi từ BABY Queen</p>
-                    <p href="#">Nhận thông tin sản phẩm mới và các chương trình khuyến mãi của BABY Queen</p>
-                    <input type="text" name="" id="" placeholder="Nhập email của bạn">
-                    <button>Đăng Ký</button>
-                    <p>Phương thức thanh toán</p>
-                    <a href="" class="thanh-toan">
-                        <img src="./IMG/visa.png" alt="">
-                        <img src="./IMG/230x0w.jpg" alt="">
-                        <img src="./IMG/momo.png" alt="">
-                        <img src="./IMG/zalo.jpg" alt="">
-                    </a>
-                </div>
-            </li>
-        </ul>
-        <div class="cuoi-cung">
-            ©Bản quyền thuộc về BABY Queen <a href="https://dtcc.edu.vn/">| Powered by Haravan</a>.
+            </div>
         </div>
+    </div>
     </div>
     <script>
         function hideSearchInput() {
